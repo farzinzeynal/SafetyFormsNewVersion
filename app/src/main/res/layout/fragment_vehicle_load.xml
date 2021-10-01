@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rigsafetyform.fraqments.Rig_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Avtomobil və avtomobil yükü \n(sərnişinlər daxil olmaqla)"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText_rig_comment"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_margin="15dp"
+            android:ems="10"
+            android:hint="qeydlər..."
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"
+            android:gravity="top"/>
+
+        <EditText
+            android:id="@+id/editText_rig_inspector_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:ems="10"
+            android:hint="Müfəttişin adı"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"/>
+
+        <EditText
+            android:id="@+id/editText_drillman_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:ems="10"
+            android:hint="Sürücünün adı "
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"/>
+
+        <EditText
+            android:id="@+id/editText_rig_witness_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:ems="10"
+            android:hint="Təhvil alan"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"/>
+
+        <EditText
+            android:id="@+id/editText_witness_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:ems="10"
+            android:hint="Şahidin adı"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-6dp"
+                android:backgroundTint="#669900"
+                android:text="Submit" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>

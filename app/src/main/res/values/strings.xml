@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">SafetyFormsNewVersion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tab_text_1">Rig Safety Inspection</string>
+    <string name="tab_text_2">Documents</string>
+    <string name="tab_text_3">Safety Equipment</string>
+    <string name="tab_text_4">General Rig Condition</string>
+    <string name="tab_text_5">Drillman Performance</string>
+    <string name="tab_text_6">Rig</string>
+
+
+    <string name="vehicle_tab_text_1">Vehicle Safety Inspection</string>
+    <string name="vehicle_tab_text_2">Documents</string>
+    <string name="vehicle_tab_text_3">Safety Equipment</string>
+    <string name="vehicle_tab_text_4">General Vehicle Condition</string>
+    <string name="vehicle_tab_text_5">Driver\'s General Performance</string>
+    <string name="vehicle_tab_text_6">Vehicle &amp; vehicle load</string>
+
+
+    <string name="time_sheet_info">Mövcud deyil</string>
+
+    <string-array name="documents_rig_safety">
+        <item>Texniki pasport </item>
+        <item>Sığorta </item>
+        <item>Qazmaçının vəsiqəsi </item>
+        <item>Qurğunu gündəlik yoxlama kitabı </item>
+
+    </string-array>
+
+    <array name="safety_equipment_rig_safety">
+        <item>İlk Tibbi yardım çantası</item>
+        <item>Yanğınsöndürən</item>
+        <item>Alətlər dəsti</item>
+        <item>Fənər</item>
+        <item>6 bucaq açar</item>
+        <item>Vintaçan</item>
+        <item>Kəlbətin</item>
+        <item>Elektrik Ötürücü naqil</item>
+    </array>
+
+
+    <string-array name="general_rig_condition">
+        <item>Xarici görünüşü</item>
+        <item>Hidravlik boru</item>
+        <item>Qüllənin vəziyyəti </item>
+        <item>Tırtıllı şassinin vəziyyəti</item>
+        <item>Hidravlik silindirin vəziyyəti</item>
+        <item>Hidravlik motorun vəziyyəti</item>
+        <item>Troslar və qaldırıcı mexanizmlər</item>
+        <item>Su nasosu</item>
+        <item>Elektrik sistemi və işıqlandırma</item>
+        <item>Rotor sistemi</item>
+        <item>Mühərrikin görünüşü</item>
+        <item>Yağın səviyyəsi</item>
+        <item>Soyuducu mayenin səviyyəsi</item>
+        <item>Akkumulyator</item>
+        <item>Elektrik hissələri</item>
+        <item>Bucurğat</item>
+        <item>GPS nəzarət cihazı </item>
+        <item>Hava şlanqları </item>
+
+    </string-array>
+
+
+    <string-array name="plate_number2">
+        <item>Plate number</item>
+        <item>99-BC-362</item>
+        <item>10-AC-456</item>
+        <item>90-BC-543</item>
+        <item>99-LX-670</item>
+        <item>10-KL-765</item>
+
+    </string-array>
+
+    <string-array name="plate_number">
+
+        <item>99-BC-362</item>
+        <item>10-AC-456</item>
+        <item>90-BC-543</item>
+        <item>99-LX-670</item>
+        <item>10-KL-765</item>
+
+    </string-array>
+
+    <string-array name="id_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="directions">
+
+        <item>Xırdalan</item>
+        <item>Masazır</item>
+        <item>Qaradağ</item>
+        <item>Xəzər</item>
+
+    </string-array>
+
+    <string-array name="units">
+
+        <item>piece</item>
+        <item>meter</item>
+        <item>kq</item>
+        <item>liter</item>
+
+    </string-array>
+
+
+    <string-array name="unit_numbers">
+        <item>Vehicle Unit</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+
+    <string-array name="colors">
+        <item>Rəngi</item>
+        <item>Qırmızı</item>
+        <item>Yaşıl</item>
+        <item>Mavi</item>
+        <item>Bənövşəyi</item>
+        <item>Narıncı</item>
+        <item>Qara</item>
+    </string-array>
+
+
+    <string-array name="drillmans">
+
+        <item>Qazmaçının adı</item>
+        <item>Hasan Mikayilov Muzaffar</item>
+        <item>Mehman Bagirov Ahmad</item>
+        <item>Rashadat Rahimov Bakhshali</item>
+        <item>Rashad Asgarov Alasgar</item>
+
+    </string-array>
+
+
+    <string-array name="employees2">
+
+
+        <item>Mehman Bagirov Ahmad</item>
+        <item>Rashadat Rahimov Bakhshali</item>
+        <item>Rashad Asgarov Alasgar</item>
+        <item>Hasan Mikayilov Muzaffar</item>
+
+    </string-array>
+
+
+    <string-array name="employees">
+
+        <item>Hasan Mikayilov Muzaffar</item>
+        <item>Mehman Bagirov Ahmad</item>
+        <item>Rashadat Rahimov Bakhshali</item>
+        <item>Rashad Asgarov Alasgar</item>
+
+    </string-array>
+
+
+    <string-array name="drivers">
+
+        <item>Sürücünün adı</item>
+        <item>Hasan Mikayilov Muzaffar</item>
+        <item>Mehman Bagirov Ahmad</item>
+        <item>Rashadat Rahimov Bakhshali</item>
+        <item>Mehman Bagirov Ahmad</item>
+        <item>Rashad Asgarov Alasgar</item>
+
+    </string-array>
+
+    <string-array name="documents_vehicle_safety">
+        <item>Texniki pasport </item>
+        <item>Sürücülüyün 8 qızıl qaydası kartı</item>
+        <item>Yanacaq kartı</item>
+        <item>Avtomobilin gündəlik yoxlama kitabı</item>
+        <item>Sığorta</item>
+        <item>Sürücülük vəsiqəsi</item>
+        <item>Etibarnamə</item>
+        <item>Mühafizə xarakterli sürücülük vəsiqəsi</item>
+        <item>Yol vərəqəsi</item>
+
+
+    </string-array>
+
+
+    <array name="vehicle_safety_equipment">
+
+        <item>Təhlükəsizlik kəmərləri</item>
+        <item>İlk Tibbi yardım çantası</item>
+        <item>Yanğınsöndürən</item>
+        <item>Təhlükəsizlik üçbucağı</item>
+        <item>Əksetdirici jilet</item>
+        <item>Domkrat</item>
+        <item>Təkər açarı</item>
+        <item>Təkər nasosu və şlanq</item>
+        <item>Alətlər dəsti</item>
+        <item>Dartqı ipi</item>
+        <item>Fənər</item>
+        <item>Pəncərə sındıran çəkic</item>
+        <item>6 bucaq açar</item>
+        <item>Vintaçan</item>
+        <item>Kəlbətin</item>
+        <item>Günlük (salon üçün)</item>
+        <item>Elektrik Ötürücü naqil</item>
+        <item>Ehtiyat təkər</item>
+        <item>Video Kamera</item>
+
+    </array>
+
+
+    <string-array name="vehicle_general_condition">
+        <item>Xarici görünüşü</item>
+        <item>Hidravlik boru</item>
+        <item>Qüllənin vəziyyəti </item>
+        <item>Tırtıllı şassinin vəziyyəti</item>
+        <item>Hidravlik silindirin vəziyyəti</item>
+        <item>Hidravlik motorun vəziyyəti</item>
+        <item>Troslar və qaldırıcı mexanizmlər</item>
+        <item>Su nasosu</item>
+        <item>Elektrik sistemi və işıqlandırma</item>
+        <item>Rotor sistemi</item>
+        <item>Mühərrikin görünüşü</item>
+        <item>Yağın səviyyəsi</item>
+        <item>Soyuducu mayenin səviyyəsi</item>
+        <item>Akkumulyator</item>
+        <item>Elektrik hissələri</item>
+        <item>Bucurğat</item>
+        <item>GPS nəzarət cihazı </item>
+        <item>Hava şlanqları </item>
+
+    </string-array>
+
+
+    <string-array name="cost_centers">
+
+        <item>Cost Center  </item>
+        <item>Center 1 </item>
+        <item>Center 2 </item>
+        <item>Center 3 </item>
+        <item>Center 4 </item>
+
+    </string-array>
+
+    <string-array name="item_codes">
+
+        <item>select code</item>
+        <item>324</item>
+        <item>2343 </item>
+        <item>8654</item>
+        <item>7654</item>
+        <item>2341</item>
+
+    </string-array>
+
+    <string-array name="item_names">
+
+
+        <item>item 1 </item>
+        <item>item 2 </item>
+        <item>item 3 </item>
+        <item>item 4 </item>
+        <item>item 5 </item>
+
+    </string-array>
+
+
+</resources>
